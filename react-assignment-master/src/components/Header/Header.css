@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Rock+Salt|Shadows+Into+Light+Two&display=swap');
+
+.header{
+    display: flex;
+    line-height: 40px;
+    padding-left: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid lightgray;
+}
+.navigation{
+    display: flex;
+    width: 70%;
+    text-align: left;
+}
+
+.navigation nav{
+    width: 50%;
+}
+
+.navigation input{
+    text-align: center;
+    padding: 2px 5px;
+    border: 1px solid lightgray;
+    background-color: #fafafa;
+    margin-bottom: 3px;
+    border-radius: 3px;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #111;
+    font-family: 'Shadows Into Light Two', cursive;
+    margin-right: 15px;
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 10px;
+}
+.navigation a:hover{
+    background-color: lightgray;
+}
+
+.social-link ul{
+    text-align: center;
+    display: flex;
+}
+
+.social-link a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 40px;
+    font-size: 16px;
+}
